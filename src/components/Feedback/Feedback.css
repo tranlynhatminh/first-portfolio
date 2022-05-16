@@ -1,0 +1,60 @@
+.feedback-area {
+    padding: 195px 0 90px;
+}
+
+.title-feedback h1{
+    color: #000a2d;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: "Rufina",serif;
+}
+
+.title-feedback {
+    justify-content: space-between;
+    margin-bottom: 66px;
+    align-items: center;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-prev::before {
+    color: #000a2d !important;
+    font-size: 35px;
+}
+
+.slick-next::before {
+    color: #000a2d !important;
+    font-size: 35px;
+}
+
+.person {
+    border: 1px solid #f0f0f0;
+    padding: 50px 40px;
+    user-select: none;
+    width: 95% !important;
+}
+
+.top-info {
+    margin-bottom: 30px;
+    align-items: center ;
+}
+
+.office-person h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ec5b53;
+}
+.office-person p {
+    color: #57667e;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info-person p {
+    color: #10285d;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+}

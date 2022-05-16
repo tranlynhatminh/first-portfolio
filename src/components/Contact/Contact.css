@@ -1,0 +1,52 @@
+.contact-area {
+    background-image: url('background-03.webp');
+    padding: 130px 0 125px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-section {
+    justify-content: space-between;
+}
+
+.contact-area h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Rufina",serif;
+    color: #ec5b53;
+    margin-bottom: 0;
+}
+
+.btn-contact {
+    background-color: #ec5b53;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    padding: 15px 44px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+.btn-contact::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(228, 66, 57);
+    transition: width ease 0.4s;
+    z-index: -1;
+}
+
+.btn-contact:hover::before {
+    width: 100%;
+}
+
+.contact-section .col-xl-2 {
+    top: 50px;
+    right: 50px;
+}

@@ -1,0 +1,16 @@
+.slider-area {
+    padding-bottom: 200px;
+    height: 308px;
+}
+
+.slider-image {
+    width: 293px;
+}
+
+.slider-image img{
+    width: 180px;
+}
+
+.slider-area button {
+    color: #fff !important;
+}

@@ -1,0 +1,234 @@
+.banner  {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 700px;
+    user-select: none;
+}
+
+.banner-section {
+    padding-top: 125px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #head-captions {
+        font-size: 60px !important;
+        line-height: 1.2;
+    }
+    .banner-section {
+        padding-top: 235px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #head-captions {
+        font-size: 50px !important;
+    }
+    .banner {
+        min-height: 700px;
+    }
+    .banner-section {
+        padding-top: 150px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #head-captions {
+        font-size: 35px !important;
+        line-height: 1.2;
+    }
+    .banner {
+        min-height: 700px;
+    }
+    .banner-section {
+        padding-top: 205px;
+    }
+}
+
+@media(max-width: 575px) {
+    #head-captions {
+        font-size: 35px !important;
+    }
+    .banner-section {
+        padding-top: 90px;
+    }
+    .banner {
+        min-height: 600px;
+    }
+    #hireMe {
+        display: none;
+    }
+}
+
+.banner-area {
+    color: white;
+}
+
+.row {
+    top: 70px;
+}
+
+#Get {
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 37px;
+    color: #e73228;
+    line-height: 1.2;
+    font-family: "Rubik", sans-serif;
+}
+
+.section-animate {
+    position: relative;
+}
+
+#banner-title {
+    position: absolute;
+    top: 100px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.fadeInUp {
+    top: 0px !important;
+    opacity: 1 !important;
+    position: relative !important;
+}
+
+#banner-description {
+    position: absolute;
+    top: 600px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.fadeInUp1 {
+    top: 0 !important;
+    opacity: 1 !important;
+    position: relative !important;
+}
+
+#head-captions {
+    margin-bottom: 29px;
+    font-weight: 700;
+    font-size: 70px;
+    font-family: "Rufina", serif;
+    color: #002d5b;
+}
+
+#content-captions {
+    margin-bottom: 42px;
+    color: #464d65;
+    line-height: 30px;
+    font-family: "Rubik",sans-serif;
+    top: 20px;
+}
+
+.btn-captions {
+    padding-left: -5px;
+    font-size: "Rubik",sans-serif;
+    top: 20px;
+    /* position: absolute; */
+    top: 390px;
+    transition: all 1s;
+}
+
+.btn-captions:hover {
+    color: #fff;
+}
+
+.btn {
+    border: none;
+}
+
+.hero-btn {
+    background-color: #ec5b53;
+    padding: 17px 45px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    font-size: "Rubik",sans-serif;
+    right: 400px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.fadeInRight {
+    right: 0;
+    opacity: 1;
+    position: relative !important;
+}
+
+.hero-btn a {
+    padding: 0;
+}
+
+.hero-btn:hover {
+    color: #fff;
+}
+
+.hero-btn:focus {
+    box-shadow: none;
+}
+
+.hero-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(228, 66, 57);
+    opacity: 0.4;
+    transition: width ease 0.5s;
+}
+
+.hero-btn:hover::before {
+    width: 100%;
+}
+
+.border-btn {
+    border: 1px solid #e3c6c6;
+    padding: 15px 57px;
+    color: #464d65;
+    margin-left: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 400px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.fadeInLeft {
+    left: 0;
+    opacity: 1;
+    position: relative !important;
+}
+
+.border-btn:focus {
+    box-shadow: none;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.border-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #ec5b53;
+    opacity: 0.6;
+    transition: height ease 0.5s;
+}
+
+.border-btn:hover::before {
+    height: 100%;
+}

@@ -1,0 +1,57 @@
+.service-area {
+    padding: 145px 0 170px;
+}
+
+.service-heading {
+    display: flex;
+}
+
+.service-heading h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.Container-tablist {
+    top: 30px;
+}
+
+.Container-tablist ul {
+    padding-top: 80px;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Container-tablist li {
+    padding-left: 20px;
+    list-style-type: none;
+    border-bottom: 1px solid #e7ebf2ed;
+    padding: 10px 20px !important;
+}
+
+.active {
+    border-bottom: 2px solid #ff5757 !important;
+}
+
+.Container-tablist a {
+    font-family: "Rubik", sans-serif;
+    color: #161e46;
+    font-weight: 500;
+}
+
+.service-content {
+    padding-top: 15px;
+}
+
+.content-service {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.show-content img {
+width: 100% !important;
+}
+

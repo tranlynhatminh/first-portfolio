@@ -1,0 +1,101 @@
+
+.header-area {
+  padding: 14px 15px 15px 0;
+}
+
+.container-header {
+  max-width: 100%;
+  display: flex;
+}
+
+.main-menu {
+  text-align: center;
+  margin: 0 50px 0 0;
+}
+
+.logo {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+
+
+.item {
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+}
+
+.item a {
+  color: #000019;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 39px 0 43px 0;
+}
+
+a:hover {
+  color: #ec5b53;
+  text-decoration: none;
+}
+
+.appendix {
+  display: none;
+  position: absolute;
+  top: 51px;
+  left: -40px;
+  list-style-type: none;
+  width: 170px;
+  background-color: #fff;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 17px 0;
+}
+
+.appendix li {
+  margin-left: 7px;
+  padding: 6px 10px 6px 10px !important;
+}
+
+.appendix li a {
+  padding: 6px 10px 6px 10px !important;
+  width: 100%;
+}
+
+.list-item {
+  position: relative;
+}
+
+.list-item:hover .appendix {
+  display: inline;
+}
+
+#btn-Get {
+  background: #ec5b53;
+  color: white !important;
+  padding: 15px 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  width: 190.6px;
+  position: relative;
+}
+
+#btn-Get::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #c53028;
+  opacity: 0.6;
+  transition: width ease 0.5s;
+}
+
+#btn-Get:hover::before {
+  width: 100%;
+}
